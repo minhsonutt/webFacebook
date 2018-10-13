@@ -1,0 +1,504 @@
+/* RESET CSS */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* NAV CSS */
+
+nav {
+	width: 100%;
+	height: 82px;
+	background-color: #3F5D9B;
+	color: white;
+	border-bottom: 1px solid #133783;
+	background: linear-gradient(#4B66A0, #3B5998);
+	font-family: 'lucida grande', tahoma, verdana, arial, "hiragino kaku gothic pro", meiryo, "ms pgothic", sans-serif;
+}
+
+div.container {
+	width: 980px;
+	height: 78px;
+	margin: auto;
+
+}
+
+div.container .logo {
+	width: 170px;
+	height: 55px;
+	padding: 6px 0px;
+	float: left;
+}
+
+div.container .logo a {
+	text-decoration: none;
+	line-height: 82px;
+	color: white;
+	font-size: 38px;
+}
+
+h1.logo-fb {
+	width: 170px;
+	height: 34px;
+}
+
+div.container div.form-login {
+	width: 392px;
+	height: 65px;
+	float: right;
+	padding-top: 18px;
+	margin-left: -13px;
+}
+
+div.container div.form-login form.login-form {
+	width: 392px;
+	height: 65px;
+	margin-left: 9px;
+}
+
+div.passw{
+	float: right;
+	position: relative;
+	top: -15px;
+	margin-right: 37px;
+}
+
+label.pass {
+	position: relative;
+	top: -32px;
+	left: 16px;
+	font-size: 12px;
+}
+
+label.txt {
+	position: relative;
+	top: -5px;
+	font-size: 12px;
+}
+
+input[type="password"] {
+	width: 149px;
+	height: 21px;
+	position: relative;
+	top: -8px;
+	left: -41px;
+	padding-left: 1px;
+}
+
+input[type="text"] {
+	display: block;
+	width: 149px;
+	height: 21px;
+	padding-left: 1px;
+}
+
+.forgot {
+	position: relative;
+	left: 165px;
+	top: 0px;
+	/* color: #9cb4d8; */
+}
+
+.forgot a:hover {
+	text-decoration: underline;
+}
+
+.input-text {
+	border: 1px solid #1d2a5b;
+}
+
+.forgot a {
+	color: #9cb4d8;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+div.sub {
+	width: 46px;
+	height: 21px;
+	position: relative;
+	left: 327px;
+	top: -42px;
+	border: 1px solid #29487D;
+}
+
+input[type="submit"] {
+	background-color: #4267B2;
+	color: white;
+	cursor: pointer;
+	width: 46px;
+	height: 21px;
+	font-weight: bold;
+	font-size: 11px;
+	position: relative;
+	top: -2px;
+}
+
+input[type="submit"]:hover {
+	background-color: #29487D;
+}
+
+div.clear {
+	clear: both;
+}
+
+
+/* END NAVIGATION */
+
+
+/* CONTENT CSS */
+
+
+/* LEFT CONTENT CSS  */
+
+div.content {
+	width: 100%;
+	height: 573px;
+	background: linear-gradient(white, #D3D8E8);
+	font-family: 'lucida grande', tahoma, verdana, arial, "hiragino kaku gothic pro", meiryo, "ms pgothic", sans-serif;
+}
+
+div.content .container-se {
+	width: 980px;
+	margin: auto;
+	height: 573px;
+
+}
+
+div.content .container-se > .left {
+	width: 580px;
+	height: 573px;
+	float: left;
+}
+
+div.content .container-se > .left>._nd {
+	width: 580px;
+	height: 300px;
+}
+
+div.content .container-se>.left>._nd>.text {
+	width: 450px;
+	height: 51px;
+	padding: 38px 0 0 0;
+}
+
+div.content .container-se>.left>._nd>.text span {
+	font-weight: bold;
+	color: #0E385F;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+div.content .container-se>.left>._nd>.photo {
+	width: 580px;
+	height: 190px;
+}
+
+
+/* END LEFT */
+
+
+/* RIGHT CSS */
+
+div.content .container-se>.right {
+	width: 400px;
+	height: 573px;
+	float: left;
+}
+
+div.content .container-se>.right>.top-f {
+	width: 400px;
+	height: 67px;
+	padding: 21px 0 0 0;
+}
+
+div.content .container-se>.right>.top-f .top-txt {
+	color: #333333;
+	font-size: 22px;
+}
+
+.top-txt span {
+	font-size: 32px;
+	font-weight: bold;
+	/* font-family: 'lucida grande',tahoma,verdana,arial,"hiragino kaku gothic pro",meiryo,"ms pgothic",sans-serif; */
+}
+
+div.content .container-se>.right>.top-f .duoi {
+	color: #333333;
+	font-size: 19px;
+	/* font-weight: bold; */
+	margin-top: 6px;
+}
+
+
+/* FORM REGISTRY CSS */
+
+div.content .container-se>.right>.form-registry {
+	width: 400px;
+	height: 381px;
+}
+
+div.content .container-se>.right>.form-registry form.sign-up {
+	width: 400px;
+	height: 381px;
+}
+
+.form-registry .sign-up .name {
+	width: 179px;
+	height: 37px;
+	border: 1px solid #BDC7D8;
+	margin-top: 26px;
+	border-radius: 5px;
+	font-size: 18px;
+	padding-left: 12px;
+}
+
+.form-registry .sign-up .surname {
+	font-size: 18px;
+	float: right;
+	width: 182px;
+	height: 37px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 12px;
+	position: relative;
+	top: -39px;
+	left: 3px;
+}
+
+.form-registry .sign-up .mobile {
+	width: 390px;
+	height: 37px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	font-size: 18px;
+	padding-left: 12px;
+	position: relative;
+	top: -29px;
+}
+
+.form-registry .sign-up .pass {
+	width: 390px;
+	height: 37px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	font-size: 18px;
+	padding-left: 12px;
+	position: relative;
+	left: 0px;
+	top: -19px;
+}
+
+.date {
+	width: 400px;
+	height: 59px;
+	position: relative;
+	top: -221px;
+}
+
+.date .birthday {
+	width: 400px;
+	height: 24px;
+	font-size: 18px;
+	/* font-weight: 300; */
+}
+
+.date .form-birthday {
+	width: 400px;
+	height: 31px;
+}
+
+select {
+	border: 1px solid #bdc7d8;
+	margin: 0px;
+	margin-left: 2px;
+	padding: 20px;
+}
+
+select.list-1 {
+	position: relative;
+}
+
+select.list-3,
+select.list-2 {
+	position: relative;
+	left: -10px;
+}
+
+select.list-2 {
+	left: -5px;
+}
+.list-1,
+.list-2,
+.list-3 {
+	padding: 5px;
+	height: 30px;
+	font-size: 13px;
+	margin: 0;
+}
+
+div.option {
+	cursor: pointer;
+	font-size: 11px;
+	width: 150px;
+	height: 28px;
+	display: inline-block;
+	position: absolute;
+	left: 200px;
+	top: 25px;
+}
+
+div.option a {
+	text-decoration: none;
+	color: #365899;
+}
+
+div.option a:hover {
+	text-decoration: underline;
+}
+
+.gender {
+	width: 400px;
+	height: 31px;
+	margin-top: 20px;
+}
+
+span.sex {
+	padding-right: 24px;
+	font-size: 19px;
+}
+
+label.down {
+    position: relative;
+    top: 3px;
+}
+
+.sm-text {
+	width: 399px;
+	height: 42px;
+	position: relative;
+	top: -167px;
+}
+
+.btn-bot {
+	width: 400px;
+	height: 59px;
+}
+
+button.nut {
+	font-size: 18px;
+	color: #fff;
+	width: 194px;
+	height: 39px;
+	border-radius: 5px;
+	background: linear-gradient(#79bc64, #578843);
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+	cursor: pointer;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border: 1px solid;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	position: relative;
+	top: -140px;
+	font-weight: bold;
+}
+
+.sm-text a {
+	color: #365899;
+}
+
+.sm-text  p,
+a {
+	font-size: 11px;
+	width: 316px;
+	height: 42px;
+	color: #777;
+	text-decoration: none;
+}
+.end {
+	width: 400px;
+	height: 33px;
+	border-top: 1px solid #dddfe2;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 15px;
+}
+
+.end a {
+	font-size: 12px;
+	color: #365899;
+	text-decoration: none;
+}
+
+.end a:hover,
+.sm-text  a:hover {
+	text-decoration: underline;
+}
+
+/* FOOTER CSS */
+div.container-th{
+	width: 980px;
+	height: 118px;
+	margin: auto;
+	margin-top: 40px;
+
+}
+div.container-th .language{
+	height: 28px;
+	border-bottom: 1px solid #DDDFE2;
+}
+div.container-th .language > ul{
+	list-style: none;
+	
+}
+div.container-th .language > ul > li{
+	float: left;
+	padding: 0 10px 0 0 ;
+}
+div.container-th .language > ul > li > a,
+div.container-th .tool > ul > li >a{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: 'lucida grande', tahoma, verdana, arial, "hiragino kaku gothic pro", meiryo, "ms pgothic", sans-serif;
+	color: #365899;
+	line-height: 20px;
+	
+	
+}
+div.container-th .language > ul > li:hover > a,
+div.container-th .tool > ul > li:hover >a{
+	text-decoration: underline;
+	
+}
+div.container-th .tool{
+	width: 1000px;
+	height: 38px;
+	margin-top: 6px;
+}
+div.container-th .tool > ul{
+	list-style: none;
+}
+div.container-th .tool > ul > li{
+	float: left;
+	padding: 0 20px 0 0 ;
+
+}
+div.container-th .facebook{
+	width: 980px;
+	height: 14px;
+	float: left;
+	margin-top: 14px;
+}
+div.container-th .facebook span,
+div.container-th .language .english{
+	font-size: 12px;
+	color: #666;
+	
+}
+div.container-th .language .english{
+	font-size: 14px;
+	position: relative;
+	top: 3px;
+}
